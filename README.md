@@ -8,8 +8,7 @@ Coin Market es un concepto enfocado en el mundo cripto, creada como una platafor
 Construida con la trinidad, HTML + CSS + JavaScript. Haciendo uso de GSAP una libería especializada en animaciones, la página integra diferentes elementos que crean un efecto de dinamismo.
 
 ## Visit Coin Market
-Visita el sitio desde cualquier dispositivo. [CoinMarket](https://effervescent-jalebi-749274.netlify.app/)
-> Full - Responsive.
+Accede al sitio desde cualquier dispositivo [CoinMarket](https://effervescent-jalebi-749274.netlify.app/)
 
 ## Status
 **Online** - Deployed on Netlify.
