@@ -155,10 +155,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     
         }
         coin.addEventListener('mouseenter', (coin) => {
-            console.log(coin.target.id)
             var coinId = `.${coin.target.id}`
             flipCoin(coinId)
-            console.log(window.screen.width)
     
         });
         

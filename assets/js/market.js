@@ -20,12 +20,11 @@ async function consultarCriptomonedas(){
         const infoCriptos = await obtenerCriptomonedas(resultado);
         showInfo(infoCriptos);
     } catch (error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
 function showInfo(infoCriptos){
-    console.log(infoCriptos.Data)
     infoCriptos.Data.forEach(cripto => {
 
         const criptoContainer = document.createElement('div');

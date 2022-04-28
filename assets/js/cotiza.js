@@ -9,9 +9,6 @@ const objBusqueda = {
     criptomoneda: ''
 }
 
-
-
-
 // Promise
 const obtenerCriptomonedas = criptomonedas => new Promise(resolve=>{
     resolve(criptomonedas);
@@ -37,7 +34,7 @@ async function consultarCriptomonedas(){
         selectCripto(criptomonedas);
 
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
     
 }
@@ -60,7 +57,7 @@ function selectCripto(criptomonedas){
 
 function leerValor(e){
     objBusqueda[e.target.name] = e.target.value;
-    // console.log(objBusqueda)
+   
 }
 
 function submitFormulario(e){
@@ -107,7 +104,7 @@ async function consultarAPI(){
         mostrarCotizacionHTML(cotizacion.DISPLAY[criptomoneda][moneda])
 
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
 }
 
