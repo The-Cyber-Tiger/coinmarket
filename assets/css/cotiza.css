@@ -1,0 +1,95 @@
+:root {
+    --dark: #000513;
+    --gold: #FDC500;
+    --logo-font: "Prosto One";
+    --main-font: "Lato";
+    --digit: 'Teko';
+    --h1: 2.5rem;
+    --h2: 2.5rem;
+}
+/* +++ NavBar +++ */
+
+.nav-link {
+    font-family: 'Prosto One';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--gold)!important;
+}
+
+.nav-logo {
+    padding-left: 2rem;
+    height: 40px;
+    width: 200px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--gold)!important;
+}
+
+
+/*-----------------------------*/
+/* +++ Main Body +++ */
+
+body {
+    background-color: var(--dark);
+    color: white;
+    font-family: var(--main-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+}
+
+.bg-dark {
+    background-color: var(--dark)!important;
+}
+
+
+/*-----------------------------*/
+/* +++ Buttons +++ */
+
+.btn {
+    border-radius: .375rem!important;
+}
+
+.btn-primary {
+    color: var(--dark)!important;
+    background-color: var(--gold)!important;
+    border-color: var(--dark);
+    height: 2.68rem;
+    width: 11.2rem!important;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    border-color: var(--gold)!important;
+    background-color: var(--dark)!important;
+    color: var(--gold)!important;
+}
+
+.btn-primary:focus {
+    box-shadow: none!important;
+}
+/* +++ Cotiza Page Section +++ */
+.cotiza-page{
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, #000513 90.1%);
+
+}
+.cotizador{
+    height: auto;
+}
+
+#show-img img{
+    width: 200px;
+}
+
+#resultado{
+    /* background: rgba(0, 5, 19, 0.144); */
+    border-radius: 24px;
+
+}
+
+/*-----------------------------*/

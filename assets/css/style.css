@@ -1,0 +1,598 @@
+/* +++ Variables +++ */
+
+:root {
+    --dark: #000513;
+    --gold: #FDC500;
+    --logo-font: "Prosto One";
+    --main-font: "Lato";
+    --digit: 'Teko';
+    --h1: 2.5rem;
+    --h2: 2.5rem;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/*-----------------------------*/
+
+
+/* +++ Main Body +++ */
+
+body {
+    background-color: var(--dark);
+    color: white;
+    font-family: var(--main-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+}
+
+.bg-dark {
+    background-color: var(--dark)!important;
+}
+
+
+/*-----------------------------*/
+
+
+/* +++ Cripto Marquee Bar +++ */
+
+.dynamic {
+    background-color: white;
+    font-weight: bold;
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+
+.digit {
+    color: #1ABD00;
+}
+
+.wrapper {
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.box {
+    width: auto;
+    height: 30px;
+    color: var(--dark);
+    overflow: hidden;
+}
+
+.boxes {
+    color: var(--dark);
+}
+
+
+/*-----------------------------*/
+
+
+/* +++ NavBar +++ */
+
+.nav-link {
+    font-family: 'Prosto One';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--gold)!important;
+}
+
+.nav-logo {
+    padding-left: 2rem;
+    height: 40px;
+    width: 200px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--gold)!important;
+}
+
+
+/*-----------------------------*/
+
+
+/* +++ Buttons +++ */
+
+.btn {
+    border-radius: .375rem!important;
+}
+
+.btn-primary {
+    color: var(--dark)!important;
+    background-color: var(--gold)!important;
+    border-color: var(--dark);
+    height: 2.68rem;
+    width: 11.2rem!important;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    border-color: var(--gold)!important;
+    background-color: var(--dark)!important;
+    color: var(--gold)!important;
+}
+
+.btn-primary:focus {
+    box-shadow: none!important;
+}
+
+.btn-outline-primary{
+    color: var(--gold)!important;
+    background-color: var(--dark)!important;
+    border-color: var(--gold);
+    height: 2.68rem;
+    width: 11.2rem!important;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+}
+
+.btn-outline-primary:hover{
+    border-color: var(--dark)!important;
+}
+
+.btn-outline-primary:focus{
+    box-shadow: none!important;
+}
+
+
+/*-----------------------------*/
+
+
+/* +++ Aprende Section +++ */
+
+.aprende {
+    /* height: 35.625rem!important; */
+    height: auto!important;
+    
+
+}
+
+.atom {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    perspective: 1000;
+    padding-top: -5rem;
+    transform-style: preserve-3d;
+}
+
+.orbit1 {
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    width: 157px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateX(46deg) rotateY(35deg);
+    
+    
+}
+
+.orbit2 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 157px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateX(-46deg) rotateY(35deg);
+}
+
+.orbit3 {
+    position: absolute;
+    top: 60px;
+    left: 139px;
+    width: 157px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateX(46deg) rotateY(35deg);
+   
+}
+
+.orbit4 {
+    position: absolute;
+    top: 115px;
+    left: 135px;
+    width: 157px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateX(-46deg) rotateY(35deg);
+}
+
+.path {
+    background-color: none;
+    width: 147px;
+    height: 170px;
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 200px;
+    
+}
+
+.electron {
+    position: absolute;
+    top: -15px;
+    left: 130px;
+    /* margin-left: -16px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+    background-color: var(--gold);
+}
+
+.electron2 {
+    position: absolute;
+    top: -45px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+    background-color: var(--gold)
+}
+
+.electron3 {
+    position: absolute;
+    top: -45px;
+    left: 45px;
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+    background-color: var(--gold)
+}
+
+.electron4 {
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+    background-color: var(--gold)
+}
+
+
+/* +++ Cotiza Section +++ */
+
+.cotiza {
+    position: relative;
+    /* height: auto; */
+}
+
+.cotiza-link a {
+    color: var(--gold)!important;
+    position: absolute;
+    margin-top: -90px;
+    left: 100px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.criptos {
+    position: relative;
+    height: auto;
+}
+
+.diamond-gold {
+    position: absolute;
+    top: 130px;
+    /* box-sizing: border-box; */
+    width: 305px;
+    height: 250px;
+}
+
+.blur-gold {
+    top: -47px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(179.4deg, rgba(0, 5, 19, 0.22) 24.71%, rgba(253, 197, 0, 0.22) 72.89%);
+}
+
+.coins {
+    position: relative;
+    height: 440px;
+    width: 336px;
+    border-radius: 500px;
+    /* background-color: red; */
+    /* order: -1; */
+    /* transform: rotateX(0deg) rotateY(40deg); */
+}
+
+.coin {
+    /* BTC */
+    cursor: pointer;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 133px;
+}
+#eth{
+    width: 50px;
+}
+#usdt, #lite{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+/* +++ Market Section +++ */
+.market{
+    position: relative;
+   background: radial-gradient(83.98% 83.98% at 49.97% 100%, #FFFFFF 0%, #FDC500 0.01%, #000513 100%);
+   z-index: 0;
+}
+.market img{
+    max-width: 300px;
+    max-height: auto;
+    z-index: 2;
+    transform: scale(0.98);
+
+}
+.market img:hover{
+    transform: scale(1);
+
+}
+
+.market a{
+    z-index: 2;
+
+}
+.graph-vector path:hover {
+    fill: var(--gold);
+}
+
+.point{
+    overflow: hidden;
+    z-index: 1;
+    margin: 0 10px 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: var(--gold);
+}
+.point-sm{
+    width: 15px;
+    height: 15px;
+}
+
+/* +++ Invierte Section +++ */
+.invierte{
+    height: 100vh;
+    background: radial-gradient(100% 100% at 50% 0%, #FDC500 0%, #000513 80.73%);
+}
+
+.cardx{
+    background-color:var(--dark);
+    width: 220px; /*14.375rem*/
+    height: 300px; /*18.75rem*/
+    border-radius: 0.75rem;
+    box-shadow: 0px 4px 50px #FFFFFF;
+    color: var(--gold);
+    font-size: 2rem;
+    transform: scale(0.98);
+
+}
+.cardx:hover{
+    transform: scale(1);
+
+}
+
+.cardx svg{
+    margin: 1rem 0 1rem 0;
+    height: 7rem;
+    width: 7rem;
+}
+/*-----------------------------*/
+
+/* +++ Footer Section +++ */
+.footerx{
+    margin-top: 10rem!important;
+    padding-top: 3rem;
+    border-top-style: solid;
+    border-color: var(--gold);
+    border-width: 1px;
+    height: auto;
+}
+.footerx h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.footerx a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footerx img{
+    margin-bottom: 1rem;
+}
+/*-----------------------------*/
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .nav-logo {
+        height: 55px;
+        width: 270px;
+    }
+    h1, h2{
+        font-size: 36px;
+    }
+    
+    .diamond-gold {
+        position: absolute;
+        top: 240px;
+        width: 450px;
+        height: 225px;
+       
+    }
+    .blur-gold {
+        top: -47px;
+        position: absolute;
+        width: 440px;
+        height: 400px;
+        background: linear-gradient(179.4deg, rgba(0, 5, 19, 0.22) 24.71%, rgba(253, 197, 0, 0.22) 72.89%);
+    }
+    .cotiza-link a {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .coins {
+        position: relative;
+        height: 440px;
+        width: 440px;
+        border-radius: 500px;
+        /* background-color: red; */
+        /* transform: rotateX(0deg) rotateY(40deg); */
+    }
+    .coin {
+        /* BTC */
+        cursor: pointer;
+        position: absolute;
+        /* top: 260px; */
+        left: 160px;
+        width: 100px;
+        height: 100px;
+    }
+    #eth{
+        width: 70px;
+    }
+    #usdt, #lite{
+        width: 90px;
+        height: 90px;
+    }
+    
+    
+.market img{
+    max-width: 700px;
+
+}
+
+}
+
+@media (min-width: 992px) {
+    .atom {
+        width: 450px;
+        height: 500px;
+        perspective: 1000;
+        padding-top: -5rem;
+        transform-style: preserve-3d;
+        background-color: var(--dark)
+    }
+    .orbit1 {
+        position: absolute;
+        top: 135px;
+        left: 0px;
+        width: 272px;
+        height: 325px;
+        transform-style: preserve-3d;
+        transform: rotateX(46deg) rotateY(35deg);
+    }
+    .orbit2 {
+        position: absolute;
+        top: 65px;
+        left: 10px;
+        width: 242px;
+        height: 270px;
+        transform-style: preserve-3d;
+        transform: rotateX(-46deg) rotateY(35deg);
+    }
+    .orbit3 {
+        position: absolute;
+        top: 65px;
+        left: 200px;
+        width: 242px;
+        height: 270px;
+        transform-style: preserve-3d;
+        transform: rotateX(46deg) rotateY(35deg);
+    }
+    .orbit4 {
+        position: absolute;
+        top: 135px;
+        left: 200px;
+        width: 272px;
+        height: 325px;
+        border-radius: 300px;
+        transform-style: preserve-3d;
+        transform: rotateX(-46deg) rotateY(35deg);
+    }
+    .path {
+        background-color: none;
+        width: 302px;
+        height: 310px;
+        position: relative;
+        transform-style: preserve-3d;
+        border-radius: 200px;
+    }
+    .electron {
+        position: absolute;
+        top: -30px;
+        left: 130px;
+        /* margin-left: -16px; */
+        width: 52px;
+        height: 52px;
+        border-radius: 300px;
+        background-color: var(--gold);
+    }
+    .electron2 {
+        position: absolute;
+        top: -35px;
+        left: 80px;
+        width: 52px;
+        height: 52px;
+        border-radius: 300px;
+        background-color: var(--gold)
+    }
+    .electron3 {
+        position: absolute;
+        top: -30px;
+        left: 45px;
+        margin-left: 1px;
+        width: 52px;
+        height: 52px;
+        border-radius: 300px;
+        background-color: var(--gold)
+    }
+    .electron4 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-left: 1px;
+        width: 52px;
+        height: 52px;
+        border-radius: 300px;
+        background-color: var(--gold)
+    }
+    
+}
+
+
+/* jeej */

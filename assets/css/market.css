@@ -1,0 +1,155 @@
+/* +++ Variables +++ */
+
+:root {
+    --dark: #000513;
+    --gold: #FDC500;
+    --logo-font: "Prosto One";
+    --main-font: "Lato";
+    --digit: 'Teko';
+    --h1: 2.5rem;
+    --h2: 2.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h4{
+    font-weight: bold;
+}
+body {
+    background-color: var(--dark);
+    color: white;
+    font-family: var(--main-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+}
+.nav-link {
+    font-family: 'Prosto One';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--gold)!important;
+}
+
+.nav-logo {
+    padding-left: 2rem;
+    height: 40px;
+    width: 200px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--gold)!important;
+}
+
+.bg-dark {
+    background-color: var(--dark)!important;
+}
+
+.total-market{
+    width: 100%;
+    height: auto;
+    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, #000513 90.1%);
+
+}
+
+.market-page{
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 26px;
+    width: 100%;
+}
+
+.market-page img{
+    width: 50px;
+}
+.etiquetas{
+    color: white;
+    font-weight: normal;
+    
+}
+.criptoDiv{
+    width: auto;
+    padding: 0 .5rem;
+    text-align: center;
+}
+.criptoDiv p{
+    font-size: 16px;
+    text-align: center;
+}
+.infoDiv{
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    
+}
+.infoDiv p{
+    margin-right: .5rem;
+    width: auto;
+}
+.cripto-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.123);
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    color: white;
+    padding: .5rem 1rem;
+}
+/* +++ Footer Section +++ */
+
+
+.footer-market{
+    background-color: var(--dark);
+    /* margin-top: 10rem!important; */
+    padding-top: 3rem;
+    border-top-style: solid;
+    border-color: var(--gold);
+    border-width: 1px;
+    height: auto;
+    
+}
+.footer-market a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer-market img{
+    margin-bottom: 1rem;
+}
+/*-----------------------------*/
+
+@media (max-width: 700px) {
+    .etiquetas{
+        font-size: 14px;
+    }
+    .infoDiv{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+    .infoDiv p{
+        margin-right: .5rem;
+        width: auto;
+    }
+    .criptoDiv{
+        width: auto;
+        padding: 0 .2rem;
+    }
+    .criptoDiv p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .market-page img {
+        width: 35px;
+    }
+    .cripto-container{
+        padding: .5rem .5rem;
+    }
+}
